@@ -26,7 +26,7 @@ useEffect(()=>{
   if(!localStorage.getItem("userInfo")){
     navigate("/login")
   }
-},[])
+})
   
   return (
     <div className="">

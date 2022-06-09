@@ -84,7 +84,7 @@ useEffect(()=>{
     navigate("/search")
   }
   
-},[])
+})
   return (
       <>
      
